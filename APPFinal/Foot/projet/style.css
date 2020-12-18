@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+}
+#header {
+    background-image: url(img/bonneval-sebastien-K9yHO4kJiOo-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#header h1 {
+    font-size: 50px;
+}
+#header p {
+    font-size: 20px;
+}
+#header .button {
+    font-size: 18px;
+    text-decoration: none ;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#header .button:hover {
+    background: white  ;
+    color: #000;
+}
+
+
+
+

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #ff9100f3;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+nav ul {
+	display: flex;
+	flex-flow: row nowrap;
+	list-style: none;
+	justify-content: space-between;
+	width: 80%;
+}
+nav ul li {
+	width: 100%;
+	padding: 5px;
+	display: block;
+	cursor: pointer;
+}
+.menu {
+	width: 20rem;
+	display: block;
+	position: absolute;
+	border-top: 3px solid #1bb127;
+	border-radius: 10px;
+	line-height: 3rem;
+	background-color: #ff9100f3;
+	z-index: 100;
+	top: 5rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 650ms ease;
+}
+.menu::before{
+	content: "";
+	position: absolute;
+	top: -2.5rem;
+	left: 3rem;
+	border: 1.2rem solid transparent;
+	border-bottom-color: #1bb127;
+}
+.navig li:hover > .menu{
+	top: 8rem;
+	opacity: 1;
+	cursor: pointer;
+	visibility: visible;
+}
+nav div {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	line-height: 30px;
+}

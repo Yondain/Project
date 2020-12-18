@@ -1,0 +1,85 @@
+body{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Photo/Tourisme/i.jpg") center no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	font-family: 'Sriracha','Times New Roman', Times, serif;
+	font-size: large;
+    font-style: italic;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 2fr 0.7fr;
+  grid-template-rows: 100px 2fr 200px;
+  grid-template-areas: "toplane toplane toplane toplane" 
+  					   ". midlane midlane ." 
+  					   ". midlane midlane ." 
+  					   ". midlane midlane ." 
+  					   "botlane botlane botlane botlane";
+  grid-gap: 30px 0px;
+}
+
+header { grid-area: toplane; }
+
+section {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	grid-area: midlane;
+	margin-bottom: 30px;
+}
+.midlane h1{
+	margin-bottom: 70px;
+}
+.elementaside{
+	padding: 30px;
+}
+
+footer {
+	grid-area: botlane;
+	background-color: #aebbaf;
+	display: grid;
+	grid-template-columns: 100px 1fr 60px 1fr 60px 1fr 100px;
+	grid-template-rows: 1fr;
+	grid-gap: 0px 30px;
+	grid-template-areas: ". column1 . column2 . column3 .";
+	padding: 30px;
+}
+
+.foot1 { grid-area: column1; }
+
+.foot2 { grid-area: column2; }
+
+.foot3 { grid-area: column3; }
+
+.d-block{
+	height: 300px;
+	width: 400px;
+}
+
+.element {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.midlane{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 100rem;
+	justify-content: space-around;
+	align-self: center;
+	padding: 30px;
+}
+
+#aside1{
+	width: 500px;
+}
+#aside2{
+	width: 1450px;
+}
+#aside3{
+	width: 2400px;
+}

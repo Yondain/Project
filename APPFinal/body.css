@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+html{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("Photo/2394f3713f53391486014e4b2fa3e0d1.jpg") center no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+section {
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.midlane h1{
+	margin-bottom: 70px;
+}
+.elementaside{
+	padding: 30px;
+}
+
+footer {
+	background-color: #000000d0;
+	padding: 30px;
+	color: white;
+}
+
+.d-block{
+	height: 300px;
+	width: 400px;
+}
+
+.element {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.midlane{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 100rem;
+	justify-content: space-around;
+	align-self: center;
+	padding: 30px;
+}
+
+#aside1{
+	width: 500px;
+}
+#aside2{
+	width: 1450px;
+}
+#aside3{
+	width: 2400px;
+}
+body{
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	font-size: large;
+    font-style: italic;
+    font-family: 'Sriracha','Times New Roman', Times, serif;
+}
+
+a{
+	text-decoration: none;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	width: 80rem;
+	align-self: center;
+}
+.slogan{
+	align-self: center;
+	margin-top: 50px;
+}
+.slide{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+.d-block{
+	border-radius: 10px;
+	height: 600px;
+	width: 400px;
+}
+
+.footTop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.footTop div{
+	padding: 30px;
+}
+p{
+	text-align: center;
+}
+.socio{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.suivre a:hover{
+	color: gold;
+}
+.suivre a i{
+	padding: 20px;
+	font-size: 50px;
+}
+.paiement{
+	height: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
